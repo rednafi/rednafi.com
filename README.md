@@ -1,6 +1,6 @@
 # [Redowan's Reflections][site]
 
-usings & rants on software. Find them at [rednafi.github.io][site].
+Personal musings & rants on software. Find them at [rednafi.github.io][site].
 
 ## Local development
 
