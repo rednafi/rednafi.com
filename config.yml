@@ -31,7 +31,7 @@ params:
     Django, Flask, FastAPI, Starlette, HTMX, VueJS,
 
   ]
-  author: Redowan Delowar
+  author: ""
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: light # dark, light
@@ -42,7 +42,7 @@ params:
   ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: true
@@ -82,8 +82,8 @@ params:
     Title: "Ohe!"
     Content: "
     This is **Redowan**—a software engineer with a knack for data science, networking,
-    databases, all kinds of backend shenanigans. Currently hacking healthcare at
-    **[Dendi](https://dendisoftware.com)** and embracing the chaos.
+    databases, all sorts of backend shenanigans. Currently hacking healthcare at
+    **[Dendi](https://dendisoftware.com/)** and embracing the chaos.
     "
 
   socialIcons:
