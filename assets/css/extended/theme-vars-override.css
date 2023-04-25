@@ -19,12 +19,12 @@
 
 :root {
     --theme: #f5f7ff;
-    --entry: #fff;
+    --entry: #f5f7ff;
     --primary: #01142a;
     --secondary: #2b3037;
     --tertiary: #D5D6D6;
     --content: #01142a;
     --hljs-bg: #1A2027;
-    --code-bg: #f5f7ff;
+    --code-bg: #e6ebfd;
     --border: #f5f7ff;
 }
