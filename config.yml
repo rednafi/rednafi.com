@@ -7,7 +7,6 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-
 googleAnalytics: UA-123-45
 
 minify:
@@ -17,17 +16,30 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Redowan's Reflections
-  description: "Musings on software"
-  keywords: [Python, JavaScript, TypeScript, Backend, Networking, Databases, Typing]
+  description: "Personal musings & rants on software..."
+  keywords: [
+    # Languages
+    Python, JavaScript, TypeScript, Go,
+
+    # Stack
+    Backend, Networking,
+
+    # Databases
+    Databases, SQLite, PostgreSQL, MySQL, NoSQL, Redis, MongoDB, DynamoDB,
+
+    # Frameworks
+    Django, Flask, FastAPI, Starlette, HTMX, VueJS,
+
+  ]
   author: Redowan Delowar
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  defaultTheme: light # dark, light
+  disableThemeToggle: true
 
   ShowReadingTime: true
   ShowShareButtons: false
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowWordCount: true
@@ -52,7 +64,7 @@ params:
 
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
@@ -65,28 +77,13 @@ params:
     icon: /apple-touch-icon.png
     iconHeight: 35
 
-  # profile-mode
-  profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
-    buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
-
   # home-info mode
   homeInfoParams:
-    Title: "Ohe \U0001F44B"
+    Title: "Ohe!"
     Content: "
-    This is Redowan. I'm a software engineer with a knack for data science, networking,
-    and databases. Currently hacking healthcare at [Dendi](https://dendisoftware.com)
-    and embracing the chaos.
+    This is **Redowan**—a software engineer with a knack for data science, networking,
+    databases, all kinds of backend shenanigans. Currently hacking healthcare at
+    **[Dendi](https://dendisoftware.com)** and embracing the chaos.
     "
 
   socialIcons:
@@ -148,7 +145,7 @@ markup:
     # codeFences: true
     guessSyntax: false
     # lineNos: true
-    # style: vs
+    style: custom-syntax-highlight
 
 outputs:
   home:
