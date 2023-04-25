@@ -64,7 +64,7 @@ params:
 
 
   assets:
-    disableHLJS: true # to disable highlight.js
+    #disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
@@ -145,7 +145,7 @@ markup:
     # codeFences: true
     guessSyntax: false
     # lineNos: true
-    style: custom-syntax-highlight
+    # style: custom-syntax-highlight
 
 outputs:
   home:
