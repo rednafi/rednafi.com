@@ -122,6 +122,7 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
+
 menu:
   main:
     - identifier: search
@@ -146,13 +147,6 @@ markup:
     guessSyntax: false
     # lineNos: true
     # style: custom-syntax-highlight
-
-outputs:
-  home:
-    - HTML
-    - RSS
-    - JSON # is necessary
-markup:
   goldmark:
     extensions:
       definitionList: true
@@ -174,3 +168,9 @@ markup:
       hardWraps: false
       unsafe: true
       xhtml: false
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
