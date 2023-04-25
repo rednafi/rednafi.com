@@ -17,8 +17,8 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Redowan's Reflections
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  description: "Musings on software"
+  keywords: [Python, JavaScript, TypeScript, Backend, Networking, Databases, Typing]
   author: Redowan Delowar
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -82,8 +82,12 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Title: "Ohe \U0001F44B"
+    Content: "
+    This is Redowan. I'm a software engineer with a knack for data science, networking,
+    and databases. Currently hacking healthcare at [Dendi](https://dendisoftware.com)
+    and embracing the chaos.
+    "
 
   socialIcons:
     - name: twitter
@@ -107,7 +111,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/rednafi/rednafi.github.io/content"
+    URL: "https://github.com/rednafi/rednafi.github.io/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 

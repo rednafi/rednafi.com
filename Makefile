@@ -10,4 +10,4 @@ update:
 
 .PHONY: devserver
 devserver:
-	@hugo server -D
+	@hugo server --disableFastRender -e production
