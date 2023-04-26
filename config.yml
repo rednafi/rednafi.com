@@ -81,7 +81,7 @@ params:
     Content: "
     This is **Redowan**—a software engineer with a knack for data science, networking,
     databases, all sorts of backend shenanigans. Currently hacking healthcare at
-    **[Dendi](https://dendisoftware.com/)** and embracing the chaos.
+    <b><u><a href='https://dendisoftware.com'>Dendi</a></u></b> and embracing the chaos.
     "
 
   socialIcons:
@@ -98,7 +98,7 @@ params:
     bing:
       SiteVerificationTag: "XYZabc"
     yandex:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "yandex-verification=cb037a09f985e313"
 
   cover:
     hidden: true # hide everywhere but not in structured data
