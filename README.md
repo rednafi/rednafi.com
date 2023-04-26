@@ -9,22 +9,18 @@ Musings & rants on software. Find them at [rednafi.github.io][site].
 ## Local development
 
 * Install [Hugo][hugo]. I'm on macOS and Hugo can be installed with `brew`:
-
     ```
     brew install hugo
     ```
 * Bootstrap the theme:
-
     ```
     brew init
     ```
 * Update the theme:
-
     ```
     brew update
     ```
 * Run the local server:
-
     ```
     make devserver
     ```
