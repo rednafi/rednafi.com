@@ -96,7 +96,7 @@ params:
     google:
       SiteVerificationTag: "google-site-verification=GoibEK52o5Z7xpKQ7ppTd8bA_s1wQp5hcG7aIWPJJfk"
     bing:
-      SiteVerificationTag: "XYZabc"
+      SiteVerificationTag: "XYZabc" # automatically imported from google
     yandex:
       SiteVerificationTag: "yandex-verification: cb037a09f985e313"
 
