@@ -7,7 +7,7 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-googleAnalytics: UA-123-45
+googleAnalytics: G-11NK905JK8
 
 minify:
   disableXML: true
@@ -36,7 +36,6 @@ params:
   DateFormat: "January 2, 2006"
   defaultTheme: light # dark, light
   disableThemeToggle: true
-
   ShowReadingTime: true
   ShowShareButtons: false
   ShowPostNavLinks: false
@@ -61,7 +60,6 @@ params:
     - python
     - random
     - typescript
-
 
   assets:
     #disableHLJS: true # to disable highlight.js
