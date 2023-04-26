@@ -4,7 +4,7 @@
 
 </div>
 
-Personal musings & rants on software. Find them at [rednafi.github.io][site].
+Musings & rants on software. Find them at [rednafi.github.io][site].
 
 ## Local development
 
