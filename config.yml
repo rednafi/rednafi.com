@@ -32,7 +32,9 @@ params:
 
   ]
   author: ""
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: [
+    "https://user-images.githubusercontent.com/30027932/234458183-8c475bbb-1ffa-413c-a143-1d0d451af028.png"
+  ]
   DateFormat: "January 2, 2006"
   defaultTheme: light # dark, light
   disableThemeToggle: true
