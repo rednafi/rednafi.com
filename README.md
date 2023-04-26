@@ -1,4 +1,8 @@
-# [Redowan's Reflections][site]
+<div align="center">
+
+# [Reflections][site]
+
+</div>
 
 Personal musings & rants on software. Find them at [rednafi.github.io][site].
 
