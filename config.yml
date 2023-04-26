@@ -33,7 +33,8 @@ params:
   ]
   author: ""
   images: [
-    "https://user-images.githubusercontent.com/30027932/234458183-8c475bbb-1ffa-413c-a143-1d0d451af028.png"
+    "https://user-images.githubusercontent.com/30027932/234461377-7c89aa55-c037-492b-ad94-d685e6c90ea6.png",
+    
   ]
   DateFormat: "January 2, 2006"
   defaultTheme: light # dark, light
