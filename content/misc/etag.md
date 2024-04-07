@@ -115,14 +115,17 @@ A few key points to keep in mind:
 -   Always wrap your `ETag` values in double quotes when sending them with the
     `If-None-Match` header, just as the spec says[^7].
 
--   Using the `If-None-Match` header to pass the `ETag` value means that the request is
-    considered successful when the `ETag` value from the client doesn't match that of the
+-   Using the `If-None-Match` header to pass the `ETag` value means that the client request
+    is considered successful when the `ETag` value from the client doesn't match that of the
     server. When the values match, the server will return `304 Not Modified` with no body.
 
 -   If we're writing a compliant server, when it comes to `If-None-Match`, the spec tells
     us[^8] to use a weak comparison for ETags. This means that the client will still be able
     to validate the cache with weak ETags, even if there have been slight changes to the
     representation of the data.
+
+-   If the client is a brower, it'll automatically manage the cache and send conditional
+    requests without any extra work.
 
 ## Update via `PUT` request with OCC
 
