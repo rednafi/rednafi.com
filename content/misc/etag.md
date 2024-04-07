@@ -112,11 +112,11 @@ gh: HTTP 304
 
 A few key points to keep in mind:
 
--   Always wrap your `ETag` values in double quotes when sending them through the
+-   Always wrap your `ETag` values in double quotes when sending them with the
     `If-None-Match` header, just as the spec says[^7].
 
 -   Using the `If-None-Match` header to pass the `ETag` value means that the request is
-    considered successful when the `ETag` value from the client does not match that of the
+    considered successful when the `ETag` value from the client doesn't match that of the
     server. When the values match, the server will return `304 Not Modified` with no body.
 
 -   If we're writing a compliant server, when it comes to `If-None-Match`, the spec tells
