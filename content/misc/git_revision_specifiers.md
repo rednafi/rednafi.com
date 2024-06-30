@@ -1,15 +1,15 @@
 ---
-title: Git's revision specifiers revisited
+title: Git revision specifiers redux
 date:
 tags:
     - Git
 ---
 
 Only recently, I found out that the identifiers used in Git commands, such as
-`git log HEAD~1`, `git checkout branch_name`, or `git switch -d <sha-1>`, have a generic
-name. These notations—`HEAD~1`, `branch_name`, or `<sha-1>`—are called revision parameters.
-Over the years, I’ve picked them up without paying much attention and never really peeked
-into the docs to see all the available options.
+`git log HEAD~1`, `git checkout branch_name>`, or `git diff <sha-1>`, have a generic name.
+These notations—`HEAD~1`, `branch_name`, or `<sha-1>`—are called revision parameters. Over
+the years, I’ve picked them up without paying much attention and never really peeked into
+the docs to see all the available options.
 
 It turns out there's a lot you can do with revision parameters. You can grab a single
 commit, a range of commits, commits reachable from one branch but not another, commits on a
